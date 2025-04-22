@@ -43,3 +43,7 @@ Conducted root cause analysis for conflicting retention metrics.
 |Root Cause & Anomaly Analysis| Cross-sheet comparison, Missing value checks |
 |Retention & Engagement Metrics| Login activity tracking, Stakeholder/document additions |
 |Professional Reporting| MS Word Reports, PDF delivery, Visual storytelling |
+
+👨‍💻 **Author**: Sarah Ahmed  
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/sarahahmed-dataanalyst/)
+📧 [Contact](mailto:ahmedsarah850@gmail.com)
