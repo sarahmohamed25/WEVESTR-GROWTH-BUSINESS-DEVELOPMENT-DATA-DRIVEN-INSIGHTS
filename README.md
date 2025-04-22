@@ -22,8 +22,7 @@ Scripts: `Companies_Joined_2022_2023_2024.py`, `Source_Breakdown_Microsoft_vs_We
 Explored stakeholder/document engagement, industry insights, and login-based retention.  
 Script: `engagement_activity_retention_analysis.py`
 ⚠️ Anomaly & Discrepancy Resolution
-Conducted root cause analysis for conflicting retention metrics.  
-Script: `merged_retention_analysis.py`
+Conducted root cause analysis for conflicting retention metrics.
 
 ✅ Key Achievements & Insights
 - 🧩 **Resolved conflicting retention metrics** by conducting a detailed anomaly analysis across separate data sheets, ultimately identifying data structure gaps and missing records as root causes.
