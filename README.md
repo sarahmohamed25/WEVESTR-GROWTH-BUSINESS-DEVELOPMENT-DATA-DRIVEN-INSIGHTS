@@ -1,39 +1,46 @@
+📊 WEVESTR GROWTH & BUSINESS DEVELOPMENT: DATA-DRIVEN INSIGHTS
 This project was completed as part of a company-guided virtual internship during my Master’s in Big Data Analytics at Bay Atlantic University. It reflects a comprehensive data analytics solution crafted to analyze platform growth, user engagement, onboarding sources, and feature adoption for a startup-style business platform.
 
-🚨 Note: All data and code shared are anonymized or simulated to maintain client confidentiality.
+🚫 Disclaimer
+This repository uses **simulated or anonymized data only**. No actual company names, emails, or identifiers have been used to preserve confidentiality. All visualizations and insights were generated from placeholder data that mimics the original structure.
+
 
 🔍 Project Overview
 The primary objective of this project was to identify user behavior trends, detect adoption gaps, evaluate retention performance, and drive business recommendations through end-to-end data analytics. The entire project was completed using Python, with final outputs designed for Grafana dashboards and professional reporting.
 
 🧱 Project Structure
-Data Compilation & Exploration
-Combined and explored multi-sheet Excel datasets.
-Scripts: compile_data.py, explore_data.py
+📂 Data Compilation & Exploration
+Combined and explored multi-sheet Excel datasets.  
+Scripts: `compile_data.py`, `explore_data.py`
+🧼 Data Cleaning & Preparation
+Cleaned missing values, removed duplicates, and standardized datasets.  
+Scripts: `missing_values_analysis.py`, `handle_missing_values.py`, `remove_duplicates.py`, `save_cleaned_data_csv.py`, `compile_cleaned_data.py`
+📈 Growth, Onboarding & Feature Adoption Analysis
+Measured growth trends, source attribution, user logins, and feature usage.  
+Scripts: `Companies_Joined_2022_2023_2024.py`, `Source_Breakdown_Microsoft_vs_Website.py`, `feature_adoption_analysis.py`
+🔁 Engagement, Activity & Retention Analysis
+Explored stakeholder/document engagement, industry insights, and login-based retention.  
+Script: `engagement_activity_retention_analysis.py`
+⚠️ Anomaly & Discrepancy Resolution
+Conducted root cause analysis for conflicting retention metrics.  
+Script: `merged_retention_analysis.py`
 
-Data Cleaning & Preparation
-Cleaned missing values, removed duplicates, and standardized datasets.
-Scripts: missing_values_analysis.py, handle_missing_values.py, remove_duplicates.py, save_cleaned_data_csv.py
+✅ Key Achievements & Insights
+- 🧩 **Resolved conflicting retention metrics** by conducting a detailed anomaly analysis across separate data sheets, ultimately identifying data structure gaps and missing records as root causes.
+- 📉 **Identified high churn risk**, with 98% of companies showing no login activity in the past 3 months—highlighting the need for improved user engagement.
+- 📈 **Mapped adoption gaps** across core features (ESOP, KPI, Financials, Integrations), revealing that while onboarding was high, platform feature usage was relatively low.
+- 🏗️ **Provided business recommendations** including the introduction of a dedicated data manager and centralized database consolidation strategy to ensure analysis consistency and data hygiene.
 
-Growth, Onboarding & Feature Adoption Analysis
-Measured growth trends, source attribution, user logins, and feature usage.
-Scripts: Companies_Joined_2022_2023_2024.py, Source_Breakdown_Microsoft_vs_Website.py, feature_adoption_analysis.py, etc.
+💡 Business Recommendations
+- Assign a dedicated database manager** to routinely update and validate user engagement metrics.
+- Consolidate all login and usage metrics into a single master sheet** to avoid analytical discrepancies and maintain data integrity.
+- Automate data syncing pipelines** using tools like Python scripts or ETL platforms (e.g., Airflow) to ensure consistent data ingestion.
+- Develop internal dashboards using Grafana or Tableau** for real-time engagement and retention monitoring.
+- Regularly audit data quality** before analytics phases to prevent misleading or conflicting insights.
 
-Engagement, Activity & Retention Analysis
-Explored stakeholder/document engagement, industry insights, and login-based retention.
-Script: engagement_activity_retention_analysis.py
-
-Anomaly & Discrepancy Resolution
-Conducted root cause analysis for conflicting retention metrics.
-Script: merged_retention_analysis.py
-
-📈 Tools & Skills Demonstrated
-Python (Pandas, Matplotlib, Seaborn)
-Data Cleaning & Validation
-Exploratory Data Analysis (EDA)
-Anomaly Detection & Root Cause Analysis
-Professional Report Writing
-
-🔐 Disclaimer
-Due to confidentiality, actual datasets and visualizations have not been shared. However, dummy scripts demonstrate the logic, structure, and methodology used to produce insights.
-
-
+🛠️ Tools & Skills Demonstrated
+|Data Cleaning & Validation| Pandas, Excel |
+|Exploratory Data Analysis (EDA)| Seaborn, Matplotlib |
+|Root Cause & Anomaly Analysis| Cross-sheet comparison, Missing value checks |
+|Retention & Engagement Metrics| Login activity tracking, Stakeholder/document additions |
+|Professional Reporting| MS Word Reports, PDF delivery, Visual storytelling |
