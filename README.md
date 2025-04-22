@@ -1,8 +1,8 @@
 📊 WEVESTR GROWTH & BUSINESS DEVELOPMENT: DATA-DRIVEN INSIGHTS
-This project was completed as part of a company-guided virtual internship during my Master’s in Big Data Analytics at Bay Atlantic University. It reflects a comprehensive data analytics solution crafted to analyze platform growth, user engagement, onboarding sources, and feature adoption for a startup-style business platform.
+This project was developed during a company-guided virtual internship as part of my Master's in Big Data Analytics at Bay Atlantic University. It presents a comprehensive data analytics solution focusing on platform growth, user engagement, and feature adoption for a startup-oriented business platform.
 
 🚫 Disclaimer
-This repository uses **simulated or anonymized data only**. No actual company names, emails, or identifiers have been used to preserve confidentiality. All visualizations and insights were generated from placeholder data that mimics the original structure.
+This repository uses **simulated or anonymized data only**. All scripts and data structures are anonymized or simulated to preserve client confidentiality. No actual company names, emails, or identifiers have been used.
 
 
 🔍 Project Overview
@@ -12,16 +12,16 @@ The primary objective of this project was to identify user behavior trends, dete
 📂 Data Compilation & Exploration
 Combined and explored multi-sheet Excel datasets.  
 Scripts: `compile_data.py`, `explore_data.py`
-🧼 Data Cleaning & Preparation
+🧹 Data Cleaning & Preparation
 Cleaned missing values, removed duplicates, and standardized datasets.  
 Scripts: `missing_values_analysis.py`, `handle_missing_values.py`, `remove_duplicates.py`, `save_cleaned_data_csv.py`, `compile_cleaned_data.py`
-📈 Growth, Onboarding & Feature Adoption Analysis
+🚀 Growth, Onboarding & Feature Adoption Analysis
 Measured growth trends, source attribution, user logins, and feature usage.  
 Scripts: `Companies_Joined_2022_2023_2024.py`, `Source_Breakdown_Microsoft_vs_Website.py`, `feature_adoption_analysis.py`
-🔁 Engagement, Activity & Retention Analysis
+🔍 Engagement, Activity & Retention Analysis
 Explored stakeholder/document engagement, industry insights, and login-based retention.  
 Script: `engagement_activity_retention_analysis.py`
-⚠️ Anomaly & Discrepancy Resolution
+❗ Anomaly & Discrepancy Resolution
 Conducted root cause analysis for conflicting retention metrics.
 
 ✅ Key Achievements & Insights
